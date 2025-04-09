@@ -2,6 +2,7 @@
     "title": "ToolHub - Developer Tools Collection",
     "baseConverter": {
         "title": "Base Converter",
+        "desc": "Base converter, supports conversion between binary, octal, decimal, and hexadecimal.",
         "input": "Please enter the number to be converted",
         "inputPlaceholder": "e.g. 1010 or A3",
         "from": "Source Base",
@@ -29,5 +30,23 @@
         "secondStep": "Step 2",
         "decimalResult": "Decimal Result",
         "surplus": "Remainder"
+    },
+    "jsonFormatter": {
+        "title": "JSON Formatter",
+        "desc": "JSON formatter, supports formatting, compression, beautification, and compression.",
+        "input": "Please enter the JSON string to be formatted",
+        "inputPlaceholder": "e.g. {\"name\":\"ToolHub\"}",
+        "format": "Format",
+        "compress": "Compress",
+        "beautify": "Beautify",
+        "error": {
+            "invalidJson": "Input format is invalid",
+            "callWord": "Error"
+        },
+        "result": "Formatted Result",
+        "copy": "Copy",
+        "success": {
+            "copy": "Copy Success"
+        }
     }
 }

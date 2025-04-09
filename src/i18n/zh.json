@@ -2,6 +2,7 @@
     "title": "ToolHub - 开发者工具集",
     "baseConverter": {
         "title": "进制转换器",
+        "desc": "进制转换器，支持二进制、八进制、十进制、十六进制之间的相互转换。",
         "input": "请输入要转换的数字",
         "inputPlaceholder": "如：1010 或 A3",
         "from": "源进制",
@@ -29,5 +30,23 @@
         "secondStep": "第二步",
         "decimalResult": "十进制结果",
         "surplus": "余"
+    },
+    "jsonFormatter": {
+        "title": "JSON格式化",
+        "desc": "JSON格式化，支持格式化、压缩、美化、压缩等功能。",
+        "input": "请输入要格式化的 JSON 字符串",
+        "inputPlaceholder": "如：{\"name\":\"ToolHub\"}",
+        "format": "格式化",
+        "compress": "压缩",
+        "beautify": "美化",
+        "error": {
+            "invalidJson": "输入格式不合法",
+            "callWord": "错误"
+        },
+        "result": "格式化结果",
+        "copy": "复制",
+        "success": {
+            "copy": "复制成功"
+        }
     }
 }
