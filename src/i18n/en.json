@@ -1,0 +1,33 @@
+{
+    "title": "ToolHub - Developer Tools Collection",
+    "baseConverter": {
+        "title": "Base Converter",
+        "input": "Please enter the number to be converted",
+        "inputPlaceholder": "e.g. 1010 or A3",
+        "from": "Source Base",
+        "to": "Target Base",
+        "convert": "Start Conversion",
+        "result": "Conversion Result",
+        "course": "Calculation Process",
+        "conciseDecimalKnowledge": "Brief Decimal Knowledge",
+        "binary": "Binary",
+        "octal": "Octal",
+        "decimal": "Decimal",
+        "hexadecimal": "Hexadecimal",
+        "li": {
+            "binary": "Base 2: Only 0 and 1",
+            "octal": "Base 8: 0-7, commonly used in Unix permissions",
+            "decimal": "Base 10: Daily use",
+            "hexadecimal": "Base 16: 0-9 + A-F, commonly used for colors/memory addresses"
+        },
+        "error": {
+            "inputInvalid": "Input format is invalid",
+            "containIllegalCharacter": "Contains illegal characters",
+            "callWord": "Error"
+        },
+        "firstStep": "Step 1",
+        "secondStep": "Step 2",
+        "decimalResult": "Decimal Result",
+        "surplus": "Remainder"
+    }
+}

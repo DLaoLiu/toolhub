@@ -1,0 +1,33 @@
+{
+    "title": "ToolHub - 开发者工具集",
+    "baseConverter": {
+        "title": "进制转换器",
+        "input": "请输入要转换的数字",
+        "inputPlaceholder": "如：1010 或 A3",
+        "from": "源进制",
+        "to": "目标进制",
+        "convert": "开始转换",
+        "result": "转换结果",
+        "course": "计算过程",
+        "conciseDecimalKnowledge": "简明进制知识",
+        "binary": "二进制",
+        "octal": "八进制",
+        "decimal": "十进制",
+        "hexadecimal": "十六进制",
+        "li": {
+            "binary": "2进制：只有 0 和 1",
+            "octal": "8进制：0-7，常用于 Unix 权限",
+            "decimal": "10进制：日常使用",
+            "hexadecimal": "16进制：0-9 + A-F，常用于颜色/内存地址"
+        },
+        "error": {
+            "inputInvalid": "输入格式不合法",
+            "containIllegalCharacter": "包含非法字符",
+            "callWord": "错误"
+        },
+        "firstStep": "第一步",
+        "secondStep": "第二步",
+        "decimalResult": "十进制结果",
+        "surplus": "余"
+    }
+}
