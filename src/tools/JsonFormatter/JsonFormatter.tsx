@@ -34,7 +34,18 @@ export default function JsonFormatter() {
     };
 
     return (
-        <div className="rounded-2xl bg-white dark:bg-gray-900 text-black dark:text-white shadow p-6 transition-colors dark:border-gray-700">
+        <div className="rounded-2xl bg-white dark:bg-gray-900 text-black dark:text-white shadow p-6 transition-colors dark:border-gray-700 relative">
+            {copySuccess && (
+                <motion.div
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0 }}
+                    className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-md shadow-md"
+                >
+                    {t("jsonFormatter.success.copy")}
+                </motion.div>
+            )}
+
             <h1 className="text-2xl font-bold text-center text-violet-600 dark:text-violet-400 mb-6">
                 {t("jsonFormatter.title")}
             </h1>
@@ -58,28 +69,15 @@ export default function JsonFormatter() {
             {error && <div className="mt-4 text-red-600">{error}</div>}
 
             {formattedJson && (
-                <div className="mt-6 p-4 bg-gray-100 dark:bg-zinc-800 rounded-xl text-sm whitespace-pre-line overflow-x-auto relative">
+                <div className="mt-6 p-4 bg-gray-100 dark:bg-zinc-800 rounded-xl text-sm whitespace-pre-line overflow-x-auto">
                     <strong>✅ {t("jsonFormatter.result")}：</strong>
                     <pre className="text-sm text-gray-700 dark:text-gray-300">{formattedJson}</pre>
-                    <div className="flex items-center mt-4">
-                        <button
-                            onClick={handleCopy}
-                            className="py-2 px-4 bg-violet-600 text-white rounded-xl hover:bg-violet-700 transition-all"
-                        >
-                            {t("jsonFormatter.copy")}
-                        </button>
-
-                        {copySuccess && (
-                            <motion.div
-                                initial={{ opacity: 0, x: -10 }}
-                                animate={{ opacity: 1, x: 0 }}
-                                exit={{ opacity: 0 }}
-                                className="ml-4 text-green-500 font-medium"
-                            >
-                                ✓ {t("jsonFormatter.success.copy")}
-                            </motion.div>
-                        )}
-                    </div>
+                    <button
+                        onClick={handleCopy}
+                        className="mt-4 py-2 px-4 bg-violet-600 text-white rounded-xl hover:bg-violet-700 transition-all"
+                    >
+                        {t("jsonFormatter.copy")}
+                    </button>
                 </div>
             )}
 
@@ -100,3 +98,5 @@ export default function JsonFormatter() {
         </div>
     );
 }
+
+
