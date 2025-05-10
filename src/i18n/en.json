@@ -48,5 +48,22 @@
         "success": {
             "copy": "Copy Success"
         }
+    },
+    "ethUnit": {
+        "title": "Ethereum Unit Converter",
+        "desc": "Ethereum unit converter, supports conversion between Ethereum units.",
+        "input": "Input Value",
+        "inputPlaceholder": "Please enter the value",
+        "switchToSelect": "Switch to Select",
+        "switchToAuto": "Switch to Auto",
+        "autoHint": "Fill in any unit, automatically synchronize and convert all units",
+        "from": "Convert From",
+        "to": "Convert To",
+        "convert": "Start Conversion",
+        "result": "Conversion Result",
+        "error": {
+            "inputInvalid": "Input format is invalid",
+            "callWord": "Error"
+        }
     }
 }

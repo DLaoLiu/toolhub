@@ -48,5 +48,22 @@
         "success": {
             "copy": "复制成功"
         }
+    },
+    "ethUnit": {
+        "title": "以太坊单位转换器",
+        "desc": "以太坊单位转换器，支持以太坊单位之间的转换。",
+        "input": "输入数值",
+        "inputPlaceholder": "请输入数值",
+        "switchToSelect": "切换为选择",
+        "switchToAuto": "切换为自动",
+        "autoHint": "任意填写一个单位，自动同步换算所有单位",
+        "from": "转换从",
+        "to": "转换到",
+        "convert": "开始转换",
+        "result": "转换结果",
+        "error": {
+            "inputInvalid": "请输入有效的数值",
+            "callWord": "出错"
+        }
     }
 }

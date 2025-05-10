@@ -3,6 +3,7 @@ import './App.css'
 import { Routes, Route, Link } from "react-router-dom";
 import { Home } from "./pages/Home";
 import BaseConverter from "./tools/BaseConverter/BaseConverter";
+import EthUnitConverter from "./tools/EthUnitConverter/EthUnitConverter";
 import JsonFormatter from "./tools/JsonFormatter/JsonFormatter";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/base-converter" element={<BaseConverter />} />
         <Route path="/json-formatter" element={<JsonFormatter />} />
+        <Route path="/eth-unit-converter" element={<EthUnitConverter />} />
       </Routes>
     </div>
   );

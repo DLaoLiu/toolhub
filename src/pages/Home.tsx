@@ -14,6 +14,10 @@ export function Home() {
                 <h3 className="text-lg font-semibold text-blue-600">{t("jsonFormatter.title")}</h3>
                 <p className="text-sm text-gray-500 mt-2">{t("jsonFormatter.desc")}</p>
             </Link>
+            <Link to="/eth-unit-converter" className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+                <h3 className="text-lg font-semibold text-blue-600">{t("ethUnit.title")}</h3>
+                <p className="text-sm text-gray-500 mt-2">{t("ethUnit.desc")}</p>
+            </Link>
         </section>
     );
 }
