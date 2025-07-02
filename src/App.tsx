@@ -5,6 +5,7 @@ import { Home } from "./pages/Home";
 import BaseConverter from "./tools/BaseConverter/BaseConverter";
 import EthUnitConverter from "./tools/EthUnitConverter/EthUnitConverter";
 import JsonFormatter from "./tools/JsonFormatter/JsonFormatter";
+import TimestampConverter from "./tools/TimestampConverter/TimestampConverter";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/base-converter" element={<BaseConverter />} />
         <Route path="/json-formatter" element={<JsonFormatter />} />
         <Route path="/eth-unit-converter" element={<EthUnitConverter />} />
+        <Route path="/timestamp-converter" element={<TimestampConverter />} />
       </Routes>
     </div>
   );

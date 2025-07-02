@@ -65,5 +65,21 @@
             "inputInvalid": "Input format is invalid",
             "callWord": "Error"
         }
+    },
+    "timestampConverter": {
+        "title": "Timestamp Converter",
+        "desc": "Convert between timestamps and readable date formats.",
+        "input": "Please enter the timestamp or date",
+        "inputPlaceholder": "e.g. 1633072800 or 2021-10-01T00:00:00Z",
+        "convert": "Start Conversion",
+        "result": "Conversion Result",
+        "copy": "Copy",
+        "error": {
+            "inputInvalid": "Input format is invalid",
+            "callWord": "Error"
+        },
+        "success": {
+            "copy": "Copy Success"
+        }
     }
 }

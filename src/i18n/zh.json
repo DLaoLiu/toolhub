@@ -65,5 +65,21 @@
             "inputInvalid": "请输入有效的数值",
             "callWord": "出错"
         }
+    },
+    "timestampConverter": {
+        "title": "时间戳转换器",
+        "desc": "时间戳转换器，支持时间戳与可读日期格式之间的相互转换。",
+        "input": "请输入时间戳或可读日期",
+        "inputPlaceholder": "如：1633072800 或 2021-10-01T00:00:00Z",
+        "convert": "开始转换",
+        "result": "转换结果",
+        "copy": "复制",
+        "error": {
+            "inputInvalid": "输入格式不合法",
+            "callWord": "错误"
+        },
+        "success": {
+            "copy": "复制成功"
+        }
     }
 }
